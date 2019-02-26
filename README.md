@@ -6,7 +6,7 @@ Used the [Wisconsin Breast Cancer](https://archive.ics.uci.edu/ml/datasets/Breas
 
 **Loss computation**: Used scikit-learn's [metrics.**hinge_loss**](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.hinge_loss.html) function to find the *maximum-margin classification error*, and compute the training and validation error for each combination of tuning parameters (C and γ).
 
-**Final Model Selection**: Used the **Validation set** to select the best classifier corresponding to the best parameter values, $C_{best}$ and $\gamma_{best}$, for which the validation error is minimum.
+**Final Model Selection**: Used the **Validation set** to select the best classifier corresponding to the best parameter values, C<sub>best</sub> and γ<sub>best</sub>, for which the validation error is minimum.
 Then fit the finalized model with the training data.
 
 **Accuracy testing**: The accuracy ***score*** of the selected model is computed on the *Test set*.
