@@ -10,3 +10,23 @@ Used the [Wisconsin Breast Cancer](https://archive.ics.uci.edu/ml/datasets/Breas
 Then fit the finalized model with the training data.
 
 **Accuracy testing**: The accuracy ***score*** of the selected model is computed on the *Test set*.
+
+---
+
+## Running
+
+### Building the model
+```
+$ python3 build_model.py
+Building SVM model for Breast Cancer Diagnosis...
+Data loaded.
+Model learning completed.
+Best Model selected. Accuracy 96.521739%
+Model saved --> SVM_model.sav
+```
+
+### Predicting with the model
+```
+$ python3 predict.py SVM_model.sav
+[1.]
+```
