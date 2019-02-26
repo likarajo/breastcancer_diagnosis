@@ -2,7 +2,7 @@
 
 Used the [Wisconsin Breast Cancer](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)) Diagnostic data set, which has been pre-processed and partitioned into training, validation and test sets.
 
-**Model Learning**: Used scikit-learn's [SVC](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html) function to learn SVM models with **radial-basis kernels** for each combination of *C* and *\gamma* in {10<sup>-2</sup>, 10<sup>-1</sup>, 1, 10<sup>1</sup>, 10<sup>2<\sup>}, and training them with the **Training set**.
+**Model Learning**: Used scikit-learn's [SVC](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html) function to learn SVM models with **radial-basis kernels** for each combination of *C* and *\gamma* in {10<sup>-2</sup>, 10<sup>-1</sup>, 1, 10<sup>1</sup>, 10<sup>2</sup>}, and training them with the **Training set**.
 
 **Loss computation**: Used scikit-learn's [metrics.hinge_loss](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.hinge_loss.html) function to find the *maximum-margin classification error*, and compute the training and validation error for each combination of tuning parameters (C and \Gamma).
 
