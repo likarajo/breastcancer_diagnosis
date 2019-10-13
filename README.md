@@ -1,4 +1,3 @@
-￼
 # Breast Cancer Diagnosis with Support Vector Machines
 
 Used the [Wisconsin Breast Cancer](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)) Diagnostic data set, which has been pre-processed and partitioned into training, validation and test sets.
